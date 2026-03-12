@@ -1,4 +1,5 @@
-# streamlit run voicebot.py
+# ssh -T git@github.com
+# streamlit run app.py --server.port 8080
 from audiorecorder import audiorecorder
 from dotenv import load_dotenv
 from datetime import datetime
